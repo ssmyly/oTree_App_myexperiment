@@ -1,0 +1,13 @@
+{{ block title }}
+    Page title
+{{ endblock }}
+{{ block content }}
+
+    Your endowment is {{C.ENDOWMENT}}.
+    You are 1 of {{C.PLAYERS_PER_GROUP}} participants in a group.
+    The group MPCR is {{C.MULTIPLIER}}.
+
+    {{ formfields }}
+    {{ next_button }}
+
+{{ endblock }}
